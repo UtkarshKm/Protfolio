@@ -21,7 +21,7 @@ export default function Header() {
           {/* Logo/Initials */}
           <Link 
             href="/" 
-            className="text-2xl font-bold text-custom-accent hover:text-custom-hover transition-colors duration-300"
+            className="text-2xl font-bold text-[#D96C6C] hover:text-[#C75A5A] transition-colors duration-300"
             onClick={closeMenu}
           >
             UD
@@ -49,9 +49,9 @@ export default function Header() {
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
-            <span className={`w-6 h-0.5 bg-custom-text transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-            <span className={`w-6 h-0.5 bg-custom-text transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-            <span className={`w-6 h-0.5 bg-custom-text transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+            <span className={`w-6 h-0.5 bg-[#333333] transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+            <span className={`w-6 h-0.5 bg-[#333333] transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+            <span className={`w-6 h-0.5 bg-[#333333] transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
           </button>
         </div>
 

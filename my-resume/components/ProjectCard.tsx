@@ -15,10 +15,10 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div className="card group">
-      <h3 className="text-xl font-semibold text-custom-text mb-3 group-hover:text-custom-accent transition-colors duration-300">
+      <h3 className="text-xl font-semibold text-[#333333] mb-3 group-hover:text-[#D96C6C] transition-colors duration-300">
         {title}
       </h3>
-      <p className="text-custom-text mb-4 leading-relaxed">
+      <p className="text-[#333333] mb-4 leading-relaxed">
         {description}
       </p>
       <Link 

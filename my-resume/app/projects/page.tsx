@@ -30,11 +30,11 @@ export default function Projects() {
   return (
     <div className="page-container">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold text-custom-text mb-8 text-center">
+        <h1 className="text-3xl font-bold text-[#333333] mb-8 text-center">
           Featured Projects
         </h1>
         
-        <p className="text-lg text-custom-text text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-lg text-[#333333] text-center mb-12 max-w-2xl mx-auto">
           Here are some of my featured projects that showcase my skills in software 
           development and problem-solving. Each project represents a unique challenge 
           and learning experience.
@@ -55,10 +55,10 @@ export default function Projects() {
         <div className="section-divider"></div>
         
         <div className="text-center">
-          <h2 className="text-2xl font-semibold text-custom-text mb-4">
+          <h2 className="text-2xl font-semibold text-[#333333] mb-4">
             Want to see more?
           </h2>
-          <p className="text-lg text-custom-text mb-6">
+          <p className="text-lg text-[#333333] mb-6">
             Check out my GitHub profile for more projects and contributions.
           </p>
           <a 

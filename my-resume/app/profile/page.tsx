@@ -34,12 +34,12 @@ export default function Profile() {
   return (
     <div className="page-container">
       <div className="max-w-3xl mx-auto text-center">
-        <h1 className="text-3xl font-bold text-custom-text mb-8">
+        <h1 className="text-3xl font-bold text-[#333333] mb-8">
           Connect With Me
         </h1>
         
-        <p className="text-lg text-custom-text mb-12 leading-relaxed">
-          I'm always open to discussing new opportunities, collaborating on projects, 
+        <p className="text-lg text-[#333333] mb-12 leading-relaxed">
+          I&apos;m always open to discussing new opportunities, collaborating on projects, 
           or simply connecting with fellow developers and tech enthusiasts.
         </p>
         
@@ -55,10 +55,10 @@ export default function Profile() {
               <div className="flex items-start space-x-4">
                 <span className="text-3xl">{link.icon}</span>
                 <div>
-                  <h3 className="text-xl font-semibold text-custom-text group-hover:text-custom-accent transition-colors duration-300">
+                  <h3 className="text-xl font-semibold text-[#333333] group-hover:text-[#D96C6C] transition-colors duration-300">
                     {link.name}
                   </h3>
-                  <p className="text-custom-text mt-2 text-sm leading-relaxed">
+                  <p className="text-[#333333] mt-2 text-sm leading-relaxed">
                     {link.description}
                   </p>
                 </div>
@@ -70,12 +70,12 @@ export default function Profile() {
         <div className="section-divider"></div>
         
         <div className="bg-white rounded-lg p-8 shadow-md">
-          <h2 className="text-2xl font-semibold text-custom-text mb-4">
-            Let's Build Something Together
+          <h2 className="text-2xl font-semibold text-[#333333] mb-4">
+            Let&apos;s Build Something Together
           </h2>
-          <p className="text-lg text-custom-text mb-6 leading-relaxed">
+          <p className="text-lg text-[#333333] mb-6 leading-relaxed">
             Whether you have a project idea, want to collaborate, or just want to chat 
-            about technology, I'd love to hear from you. Feel free to reach out through 
+            about technology, I&apos;d love to hear from you. Feel free to reach out through 
             any of the platforms above.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -89,7 +89,7 @@ export default function Profile() {
               href="https://github.com/utkarsh-devi"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white border-2 border-custom-accent text-custom-accent hover:bg-custom-accent hover:text-white px-6 py-2 rounded-lg transition-all duration-300"
+              className="bg-white border-2 border-[#D96C6C] text-[#D96C6C] hover:bg-[#D96C6C] hover:text-white px-6 py-2 rounded-lg transition-all duration-300"
             >
               View My Work
             </a>
