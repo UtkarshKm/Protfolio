@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-custom-bg: #F9F6F2;
+  --color-custom-text: #333333;
+  --color-custom-accent: #D96C6C;
+  --color-custom-hover: #C75A5A;
+}
+
+body {
+  background-color: #F9F6F2;
+  color: #333333;
+}
+
+.nav-link {
+  color: #333333;
+  transition: color 300ms;
+}
+
+.nav-link:hover {
+  color: #D96C6C;
+}
+
+.btn-primary {
+  background-color: #D96C6C;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 300ms;
+}
+
+.btn-primary:hover {
+  background-color: #C75A5A;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: box-shadow 300ms;
+  padding: 1.5rem;
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+.page-container {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem 4rem;
+}
+
+.section-divider {
+  border-top: 1px solid #e5e7eb;
+  margin: 3rem 0;
+}
