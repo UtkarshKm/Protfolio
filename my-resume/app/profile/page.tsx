@@ -1,6 +1,4 @@
-'use client';
-import React from "react";
-import { motion } from "framer-motion";
+import Reveal from "@/components/Reveal";
 
 export const metadata = {
   title: "Profile & Contact - Utkarsh Kumawat",
@@ -37,13 +35,7 @@ export default function Profile() {
 
   return (
     <div className="page-container">
-      <motion.div
-        className="max-w-3xl mx-auto text-center"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.4 }}
-      >
+      <Reveal className="max-w-3xl mx-auto text-center">
         <h1 className="text-3xl font-bold text-[#333333] mb-8">
           Connect With Me
         </h1>
@@ -105,7 +97,7 @@ export default function Profile() {
             </a>
           </div>
         </div>
-      </motion.div>
+      </Reveal>
     </div>
   );
 }

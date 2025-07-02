@@ -1,7 +1,5 @@
-'use client';
-import React from "react";
+import Reveal from "@/components/Reveal";
 import ProjectCard from "@/components/ProjectCard";
-import { motion } from "framer-motion";
 
 export const metadata = {
   title: "Projects - Utkarsh Kumawat",
@@ -32,13 +30,7 @@ export default function Projects() {
 
   return (
     <div className="page-container">
-      <motion.div
-        className="max-w-4xl mx-auto"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.4 }}
-      >
+      <Reveal className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-[#333333] mb-8 text-center">
           Featured Projects
         </h1>
@@ -79,7 +71,7 @@ export default function Projects() {
             Visit My GitHub
           </a>
         </div>
-      </motion.div>
+      </Reveal>
     </div>
   );
 }
