@@ -15,7 +15,11 @@ export const metadata: Metadata = {
   description: "Computer Science student from Jaipur, passionate about problem-solving and software development.",
   keywords: ["Utkarsh Kumawat", "Resume", "Computer Science", "Software Developer", "Jaipur"],
   authors: [{ name: "Utkarsh Kumawat" }],
-  viewport: "width=device-width, initial-scale=1",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
