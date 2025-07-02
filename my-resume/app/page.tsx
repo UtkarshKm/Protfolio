@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Utkarsh Devi - Home",
+  title: "Utkarsh Kumawat - Home",
   description: "Computer Science student from Jaipur, passionate about problem-solving and software development.",
 };
 
