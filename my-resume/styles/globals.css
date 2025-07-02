@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F9F6F2;
+  --foreground: #333333;
+  --accent: #D96C6C;
+  --hover: #C75A5A;
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-custom-text hover:text-custom-accent transition-colors duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-custom-accent hover:bg-custom-hover text-white px-6 py-2 rounded-lg transition-colors duration-300;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6;
+  }
+  
+  .page-container {
+    @apply max-w-4xl mx-auto px-4 py-16;
+  }
+  
+  .section-divider {
+    @apply border-t border-gray-200 my-12;
+  }
+}
