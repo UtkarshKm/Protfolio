@@ -15,10 +15,24 @@ body {
 .nav-link {
   color: #333333;
   transition: color 300ms;
+  position: relative;
 }
 
-.nav-link:hover {
-  color: #D96C6C;
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #D96C6C;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 300ms ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
 }
 
 .btn-primary {

@@ -1,3 +1,5 @@
+import Reveal from "@/components/Reveal";
+
 export const metadata = {
   title: "Profile & Contact - Utkarsh Kumawat",
   description: "Connect with Utkarsh Kumawat through various social platforms and professional networks.",
@@ -33,7 +35,7 @@ export default function Profile() {
 
   return (
     <div className="page-container">
-      <div className="max-w-3xl mx-auto text-center">
+      <Reveal className="max-w-3xl mx-auto text-center">
         <h1 className="text-3xl font-bold text-[#333333] mb-8">
           Connect With Me
         </h1>
@@ -95,7 +97,7 @@ export default function Profile() {
             </a>
           </div>
         </div>
-      </div>
+      </Reveal>
     </div>
   );
 }

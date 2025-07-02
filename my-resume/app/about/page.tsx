@@ -1,3 +1,5 @@
+import Reveal from "@/components/Reveal";
+
 export const metadata = {
   title: "About Me - Utkarsh Kumawat",
   description: "Learn more about Utkarsh Kumawat, a Computer Science student from Jaipur passionate about problem-solving and software development.",
@@ -6,7 +8,7 @@ export const metadata = {
 export default function About() {
   return (
     <div className="page-container">
-      <div className="max-w-3xl mx-auto">
+      <Reveal className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-[#333333] mb-8 text-center">
           About Me
         </h1>
@@ -60,7 +62,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+      </Reveal>
     </div>
   );
 }

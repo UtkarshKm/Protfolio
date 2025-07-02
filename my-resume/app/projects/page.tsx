@@ -1,3 +1,4 @@
+import Reveal from "@/components/Reveal";
 import ProjectCard from "@/components/ProjectCard";
 
 export const metadata = {
@@ -29,7 +30,7 @@ export default function Projects() {
 
   return (
     <div className="page-container">
-      <div className="max-w-4xl mx-auto">
+      <Reveal className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-[#333333] mb-8 text-center">
           Featured Projects
         </h1>
@@ -70,7 +71,7 @@ export default function Projects() {
             Visit My GitHub
           </a>
         </div>
-      </div>
+      </Reveal>
     </div>
   );
 }
