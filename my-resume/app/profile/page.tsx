@@ -25,7 +25,7 @@ export default function Profile() {
     },
     {
       name: "Email",
-      url: "mailto:utkarsh.devi@example.com",
+      url: "mailto:utkarshkumawat2003@gmail.com",
       icon: "✉️",
       description: "Send me an email for collaboration opportunities"
     }
@@ -80,7 +80,7 @@ export default function Profile() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="mailto:utkarsh.devi@example.com"
+              href="mailto:utkarshkumawat2003@gmail.com"
               className="btn-primary"
             >
               Get In Touch

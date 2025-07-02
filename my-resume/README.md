@@ -176,7 +176,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Utkarsh Kumawat**
 - GitHub: [@UtkarshKm](https://github.com/UtkarshKm)
 - LinkedIn: [Utkarsh Kumawat](https://www.linkedin.com/in/utkarshkm/)
-- Email: utkarshkm@example.com
+- Email: utkarshkumawat2003@gmail.com
 
 ---
 
