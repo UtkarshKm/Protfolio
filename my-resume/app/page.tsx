@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export const metadata = {
   title: "Utkarsh Kumawat - Home",
   description: "Computer Science student from Jaipur, passionate about problem-solving and software development.",
@@ -6,7 +8,13 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="page-container">
-      <section className="text-center">
+      <motion.section
+        className="text-center"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.4 }}
+      >
         {/* Hero Section */}
         <div className="max-w-3xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-[#333333] mb-6 leading-tight">
@@ -38,7 +46,7 @@ export default function Home() {
             View My Projects
           </a>
         </div>
-      </section>
+      </motion.section>
     </div>
   );
 }
