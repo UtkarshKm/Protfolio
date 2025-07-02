@@ -11,10 +11,10 @@ const robotoSlab = Roboto_Slab({
 });
 
 export const metadata: Metadata = {
-  title: "Utkarsh Devi - Resume",
+  title: "Utkarsh Kumawat - Resume",
   description: "Computer Science student from Jaipur, passionate about problem-solving and software development.",
-  keywords: ["Utkarsh Devi", "Resume", "Computer Science", "Software Developer", "Jaipur"],
-  authors: [{ name: "Utkarsh Devi" }],
+  keywords: ["Utkarsh Kumawat", "Resume", "Computer Science", "Software Developer", "Jaipur"],
+  authors: [{ name: "Utkarsh Kumawat" }],
   viewport: "width=device-width, initial-scale=1",
 };
 

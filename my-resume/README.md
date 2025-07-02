@@ -173,10 +173,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Utkarsh Devi**
-- GitHub: [@utkarsh-devi](https://github.com/utkarsh-devi)
-- LinkedIn: [Utkarsh Devi](https://linkedin.com/in/utkarsh-devi)
-- Email: utkarsh.devi@example.com
+**Utkarsh Kumawat**
+- GitHub: [@UtkarshKm](https://github.com/UtkarshKm)
+- LinkedIn: [Utkarsh Kumawat](https://www.linkedin.com/in/utkarshkm/)
+- Email: utkarshkm@example.com
 
 ---
 

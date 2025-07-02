@@ -1,19 +1,19 @@
 export const metadata = {
-  title: "Profile & Contact - Utkarsh Devi",
-  description: "Connect with Utkarsh Devi through various social platforms and professional networks.",
+  title: "Profile & Contact - Utkarsh Kumawat",
+  description: "Connect with Utkarsh Kumawat through various social platforms and professional networks.",
 };
 
 export default function Profile() {
   const socialLinks = [
     {
       name: "GitHub",
-      url: "https://github.com/utkarsh-devi",
+      url: "https://github.com/UtkarshKm",
       icon: "🐙",
       description: "Check out my code repositories and open source contributions"
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/utkarsh-devi",
+      url: "https://www.linkedin.com/in/utkarshkm/",
       icon: "💼",
       description: "Connect with me professionally and view my career journey"
     },
@@ -86,7 +86,7 @@ export default function Profile() {
               Get In Touch
             </a>
             <a 
-              href="https://github.com/utkarsh-devi"
+              href="https://github.com/UtkarshKm"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white border-2 border-[#D96C6C] text-[#D96C6C] hover:bg-[#D96C6C] hover:text-white px-6 py-2 rounded-lg transition-all duration-300"

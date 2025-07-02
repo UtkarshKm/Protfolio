@@ -24,7 +24,7 @@ export default function Header() {
             className="text-2xl font-bold text-[#D96C6C] hover:text-[#C75A5A] transition-colors duration-300"
             onClick={closeMenu}
           >
-            UD
+            UK
           </Link>
 
           {/* Desktop Navigation */}

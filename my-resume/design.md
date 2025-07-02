@@ -34,7 +34,7 @@
   - Right (desktop): Nav links ("Home", "About", "Projects", "Profile")  
   - Mobile: Hamburger button toggles `<MobileMenu />`  
 - **Footer (`components/Footer.tsx`):**  
-  - Centered text: "© 2025 Utkarsh Devi"  
+  - Centered text: "© 2025 Utkarsh Kumawat"  
 - **ProjectCard (`components/ProjectCard.tsx`):**  
   - Props: `title`, `description`, `href`  
   - Layout: Card with border, padding, hover lift (`hover:shadow-lg`)
@@ -42,7 +42,7 @@
 ## 📄 Pages Structure
 - **Home (`/app/page.tsx`):**  
   - Hero section:  
-    - `<h1>` "Utkarsh Devi" (bold, large)  
+    - `<h1>` "Utkarsh Kumawat" (bold, large)  
     - Tagline in accent color: "Logical Minded // Creative at Heart"  
     - Short intro paragraph
 - **About (`/app/about/page.tsx`):**  
@@ -62,7 +62,7 @@
 - **Metadata:**  
   ```ts
   export const metadata = {
-    title: 'Utkarsh Devi – Resume',
+    title: 'Utkarsh Kumawat – Resume',
     description: 'Personal resume website built with Next.js & Tailwind CSS'
   }
   ```

@@ -1,8 +1,8 @@
 import ProjectCard from "@/components/ProjectCard";
 
 export const metadata = {
-  title: "Projects - Utkarsh Devi",
-  description: "Featured projects by Utkarsh Devi, showcasing skills in software development and innovation.",
+  title: "Projects - Utkarsh Kumawat",
+  description: "Featured projects by Utkarsh Kumawat, showcasing skills in software development and innovation.",
 };
 
 export default function Projects() {
@@ -10,19 +10,19 @@ export default function Projects() {
     {
       title: "Video Streaming App",
       description: "A full-stack video streaming platform built with modern web technologies, featuring user authentication, video upload, and real-time streaming capabilities.",
-      link: "https://github.com/utkarsh-devi",
+      link: "https://github.com/utkarshkm",
       linkText: "View on GitHub"
     },
     {
       title: "Task Management System",
       description: "An intuitive task management application with drag-and-drop functionality, team collaboration features, and real-time updates for enhanced productivity.",
-      link: "https://github.com/utkarsh-devi",
+      link: "https://github.com/utkarshkm",
       linkText: "View Demo"
     },
     {
       title: "E-Commerce Platform",
       description: "A responsive e-commerce website with shopping cart, payment integration, inventory management, and admin dashboard for complete business operations.",
-      link: "https://github.com/utkarsh-devi",
+      link: "https://github.com/utkarshkm",
       linkText: "View on GitHub"
     }
   ];
@@ -62,7 +62,7 @@ export default function Projects() {
             Check out my GitHub profile for more projects and contributions.
           </p>
           <a 
-            href="https://github.com/utkarsh-devi"
+            href="https://github.com/utkarshkm"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

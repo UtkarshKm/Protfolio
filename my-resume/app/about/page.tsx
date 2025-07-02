@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "About Me - Utkarsh Devi",
-  description: "Learn more about Utkarsh Devi, a Computer Science student from Jaipur passionate about problem-solving and software development.",
+  title: "About Me - Utkarsh Kumawat",
+  description: "Learn more about Utkarsh Kumawat, a Computer Science student from Jaipur passionate about problem-solving and software development.",
 };
 
 export default function About() {
