@@ -1,3 +1,7 @@
+'use client';
+import React from "react";
+import { motion } from "framer-motion";
+
 export const metadata = {
   title: "Profile & Contact - Utkarsh Kumawat",
   description: "Connect with Utkarsh Kumawat through various social platforms and professional networks.",
@@ -33,7 +37,13 @@ export default function Profile() {
 
   return (
     <div className="page-container">
-      <div className="max-w-3xl mx-auto text-center">
+      <motion.div
+        className="max-w-3xl mx-auto text-center"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.4 }}
+      >
         <h1 className="text-3xl font-bold text-[#333333] mb-8">
           Connect With Me
         </h1>
@@ -95,7 +105,7 @@ export default function Profile() {
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
