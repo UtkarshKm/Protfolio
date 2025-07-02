@@ -1,67 +1,68 @@
-# Design Documentation - My Resume
+# Utkarsh Resume Website – Next.js + Tailwind (No Photo Section)
 
-## Color Palette
-- **Background**: `#F9F6F2` - Warm off-white background
-- **Text**: `#333333` - Dark gray for readable body text
-- **Accent**: `#D96C6C` - Coral accent color for highlights
-- **Hover**: `#C75A5A` - Darker coral for hover states
+## 🎨 Color Palette
+- **Background:** `#F9F6F2` (Off‑white)  
+- **Text:** `#333333` (Dark Gray)  
+- **Accent:** `#D96C6C` (Muted Pink/Red)  
+- **Hover:** `#C75A5A` (Darker Accent)
 
-## Typography
-- **Main Font**: Roboto Slab loaded via `next/font/google`
-- **Headings**: font-weight 600–700, responsive sizes
-  - Hero title: `text-5xl md:text-6xl`
-  - Page titles: `text-3xl`
-  - Section headings: `text-2xl`
-- **Body**: font-weight 400, `text-base` → `text-lg`
+## 🖋️ Typography
+- **Font Family:** Roboto Slab (or Poppins) via `next/font/google`  
+- **Headings:**  
+  - Weight: 600–700  
+  - Responsive sizes:  
+    - `<h1>`: `text-5xl` → `md:text-6xl`  
+    - `<h2>`: `text-4xl` → `md:text-5xl`  
+    - `<h3>`: `text-3xl` → `md:text-4xl`  
+- **Body Text:**  
+  - Weight: 400  
+  - Sizes: `text-base` → `text-lg`  
+  - Line-height: `leading-relaxed`
 
-## Layout
-- **Max-width container**: ≈800px, centered with `max-w-4xl mx-auto`
-- **Generous vertical padding**: `py-16`, `mx-auto`
-- **Sections separated**: by whitespace or thin horizontal lines
-- **Responsive**: Mobile-first approach with responsive breakpoints
+## 📐 Layout & Spacing
+- **Container:**  
+  - Max width: `max-w-3xl` (~800px)  
+  - Centered: `mx-auto`  
+  - Padding: `px-4 sm:px-6 lg:px-8`  
+- **Section Gaps:**  
+  - Vertical padding: `py-16`  
+  - Divider (optional): `<hr class="border-t border-gray-200 my-16" />`
 
-## Components
+## 🧩 Components
+- **Header (`components/Header.tsx`):**  
+  - Left: Logo or initials ("UD")  
+  - Right (desktop): Nav links ("Home", "About", "Projects", "Profile")  
+  - Mobile: Hamburger button toggles `<MobileMenu />`  
+- **Footer (`components/Footer.tsx`):**  
+  - Centered text: "© 2025 Utkarsh Devi"  
+- **ProjectCard (`components/ProjectCard.tsx`):**  
+  - Props: `title`, `description`, `href`  
+  - Layout: Card with border, padding, hover lift (`hover:shadow-lg`)
 
-### Header
-- Logo/initials on left side
-- Navigation links on right side
-- Hamburger menu toggle on mobile devices
-- Fixed or sticky positioning
-- Clean, minimal design
+## 📄 Pages Structure
+- **Home (`/app/page.tsx`):**  
+  - Hero section:  
+    - `<h1>` "Utkarsh Devi" (bold, large)  
+    - Tagline in accent color: "Logical Minded // Creative at Heart"  
+    - Short intro paragraph
+- **About (`/app/about/page.tsx`):**  
+  - Title: "About Me"  
+  - 2–3 sentences: background, passions, goals  
+- **Projects (`/app/projects/page.tsx`):**  
+  - Title: "Featured Projects"  
+  - Render a vertical list of 3+ `<ProjectCard />`
+- **Profile (`/app/profile/page.tsx`):**  
+  - Title: "Connect With Me"  
+  - Icon links (GitHub, LinkedIn, Resume, Email)
 
-### Footer
-- Simple copyright text
-- Centered layout
-- Minimal styling
-
-### ProjectCard
-- Project title as heading
-- 1-line description below title
-- Link button ("View on GitHub" or "Demo")
-- Card-like appearance with subtle borders or shadows
-- Hover effects for interactivity
-
-## Interactions
-- **Hamburger menu toggle**: Uses React `useState` for mobile navigation
-- **Link hover effects**: 
-  - Underline grow animation
-  - Color fade transitions
-  - Smooth transitions with `transition-all duration-300`
-- **Button hover**: Background color changes from accent to hover color
-- **Card hover**: Subtle lift effect or border color change
-
-## Responsive Design
-- **Mobile-first**: Base styles for mobile, then scale up
-- **Breakpoints**: 
-  - `sm:` (640px+) for small tablets
-  - `md:` (768px+) for tablets and small laptops
-  - `lg:` (1024px+) for larger screens
-- **Navigation**: Hamburger menu on mobile, full nav on desktop
-- **Typography**: Smaller text sizes on mobile, larger on desktop
-- **Spacing**: Reduced padding/margins on mobile
-
-## Performance Considerations
-- **Next.js Image component** for any images
-- **Font optimization** with `next/font/google`
-- **Minimal dependencies** for fast loading
-- **Optimized bundle size** with tree shaking
+## ⚙️ Next.js Features
+- **App Router** (`/app` directory)  
+- **Font Loading:** via `next/font/google` in `layout.tsx`  
+- **Image Optimization:** `<Image />` for logo (if used)  
+- **Metadata:**  
+  ```ts
+  export const metadata = {
+    title: 'Utkarsh Devi – Resume',
+    description: 'Personal resume website built with Next.js & Tailwind CSS'
+  }
+  ```

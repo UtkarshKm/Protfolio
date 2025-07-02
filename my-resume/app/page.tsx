@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export const metadata = {
   title: "Utkarsh Devi - Home",
   description: "Computer Science student from Jaipur, passionate about problem-solving and software development.",
